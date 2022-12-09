@@ -8,9 +8,7 @@
                 <a href="/notes" class="text-blue-500 underline">go back...</a>
             </p>
 
-            <div class="h-96 rounded-lg border-4 border-dashed border-gray-200">
-                <p><?= $note['body'] ?></p>
-            </div>
+            <p><?= $note['body'] ?></p>
         </div>
     </main>
 

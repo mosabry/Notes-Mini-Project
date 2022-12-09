@@ -1,17 +1,13 @@
 <?php require "views/partials/head.php" ?>
 <?php require "views/partials/nav.php" ?>
-<?php require "views/partials/banner.php" ?>
 
     <main>
         <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
             <!-- Replace with your content -->
             <div class="px-4 py-6 sm:px-0">
-                <?php foreach ($notes as $note) : ?>
-                    <li>
-                        <a href="/note?id=<?= $note['id'] ?>"
-                           class="text-blue-500 underline decoration-dashed hover:decoration-solid "><?= $note['body'] ?></a>
-                    </li>
-                <?php endforeach; ?>
+                <h1 class="text-2xl font-bold">You are not authorized to view this page.</h1>
+                <p class="mt-4"><a href="/" class="text-blue-500 underline decoration-dashed hover:decoration-solid">Go
+                        back Home</a></p>
             </div>
             <!-- /End replace -->
         </div>
